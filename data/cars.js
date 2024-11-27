@@ -71,3 +71,5 @@ const cars = [
         price: 45000,
     },
 ];
+
+module.exports = cars;

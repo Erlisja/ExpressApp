@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100vh;  /* Ensure body takes full viewport height */
+    margin: 0;
+    background: linear-gradient(-10deg, white 40%, rgba(83, 104, 118, 1) 80%, rgba(41, 46, 73, 1) 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: 5px;
+  
+}
+
+#main-div h1{
+    font-size: 2.5rem;
+    color: rgb(24, 24, 24);
+margin-bottom: 100px;
+    margin-top: 20px;
+}
+#main-div h2{
+    font-size: 1.5rem;
+    color: rgb(24, 24, 24);
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid #2d2c2c;
+    margin-top: 20px;
+    height: 50%;
+}
+#car-table{
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #2d2c2c;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #2d2c2c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(16, 20, 44);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
