@@ -35,6 +35,7 @@ class Home extends React.Component {
                 ))}
               </tbody>
             </table>
+            <button type="button" name="homeButton" id="nextPage"> <a href="/api/carsDatabase">Next Page</a> </button>
           </div>
 
         <footer>

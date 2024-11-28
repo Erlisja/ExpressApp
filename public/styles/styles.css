@@ -96,9 +96,22 @@ footer {
 #home-button{
     margin-top: 10px;
     margin-right: 0px;
-    
+
     display: flex;
     justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+}
+
+#nextPage {
+    margin-top: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: start;
+    justify-self: left;
     align-items: flex-start;
     padding: 10px;
     background-color: #ffffff;

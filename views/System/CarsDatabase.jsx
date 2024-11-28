@@ -30,7 +30,7 @@ class CarsDatabase extends React.Component {
                 Price:
                 <input type="number" name="price" required />
                 <br />
-                <input type="submit" name="" value="Add Car" />
+                <input type="submit" name="" value="Add Car"  />
               </form>
             </div>
             <br />
