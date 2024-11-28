@@ -23,6 +23,7 @@ router.route ('/carsDatabase')
         price: req.body.price
     };
     cars.push(newCar);
+    res.render('System/CarsDatabase', { cars });
     res.status(201).json(newCar); // Respond with the newly added car
 });
 
