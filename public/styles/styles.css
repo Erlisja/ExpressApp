@@ -93,10 +93,9 @@ footer {
     margin-top: 5px;
 }
 
-#home-button{
+button{
     margin-top: 10px;
     margin-right: 0px;
-
     display: flex;
     justify-content: start;
     align-items: flex-start;
@@ -106,23 +105,10 @@ footer {
     cursor: pointer;
 }
 
-#nextPage {
-    margin-top: 30px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: start;
-    justify-self: left;
-    align-items: flex-start;
-    padding: 10px;
-    background-color: #ffffff;
-    color: rgb(3, 3, 3);
-    cursor: pointer;
-}
-
-#nextPage:hover {
+button:hover {
     background-color: #f2f2f2;
 }
-#catalogButton{
+/* #nextPage {
     margin-top: 10px;
     margin-right: 0px;
     display: flex;
@@ -132,9 +118,24 @@ footer {
     background-color: #ffffff;
     color: rgb(3, 3, 3);
     cursor: pointer;
-}
+} */
 
-#catalogButton:hover {
+/* #nextPage:hover {
+    background-color: #f2f2f2;
+} */
+/* #catalogButton{
+    margin-top: 10px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+} */
+
+/* #catalogButton:hover {
     background-color: #f2f2f2;
 }
 #downloadButton{
@@ -147,4 +148,4 @@ footer {
     background-color: #ffffff;
     color: rgb(3, 3, 3);
     cursor: pointer;
-}
+} */

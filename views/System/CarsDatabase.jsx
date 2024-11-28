@@ -11,9 +11,11 @@ class CarsDatabase extends React.Component {
         </head>
 
         <div id="main-div">
-          <button type="button" name="homeButton" id="home-button">
-            <a href="/api/home">Home</a>
-          </button>
+          <a href="/api/home">
+            <button type="button" name="homeButton" id="home-button">
+              Home
+            </button>
+          </a>
           <h1>Welcome to Philadelphia Car Vendor</h1> <br />
           <h2>Car Database</h2>
           <div id="container">
@@ -30,7 +32,7 @@ class CarsDatabase extends React.Component {
                 Price:
                 <input type="number" name="price" required />
                 <br />
-                <input type="submit" name="" value="Add Car"  />
+                <input type="submit" name="" value="Add Car" />
               </form>
             </div>
             <br />
@@ -57,8 +59,9 @@ class CarsDatabase extends React.Component {
               </tbody>
             </table>
           </div>
-          <button type="button" name="catalogButton" id="catalogButton">  
-              <a href="/api/downloads">Cars Catalog</a> </button>
+          <button type="button" name="catalogButton" id="catalogButton">
+            <a href="/api/downloads">Cars Catalog</a>{" "}
+          </button>
         </div>
         <footer>
           <p>Philadelphia Car Vendor &copy; 2024</p>

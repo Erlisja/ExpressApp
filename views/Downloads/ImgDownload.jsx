@@ -9,9 +9,11 @@ class ImgDownload extends React.Component {
           <link rel="stylesheet" href="/styles/styles.css" />
         </head>
         <div id="main-div">
-          <button type="button" name="homeButton" id="home-button">
-            <a href="/api/home">Home</a>
+        <a href="/api/home">
+         <button type="button" name="homeButton" id="home-button">
+            Home
           </button>
+          </a> 
           <h1>Welcome to Philadelphia Car Vendor</h1> <br />
           <h2>Download Image</h2>
           <img
@@ -21,7 +23,7 @@ class ImgDownload extends React.Component {
             height={500}
           />
           <br />
-          <a href="/api/downloads">
+          <a href="/api/downloads/image">
             <button type="button" name="downloadButton" id="download-button">
               Download
             </button>
