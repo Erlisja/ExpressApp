@@ -26,27 +26,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(logger);
 
 const indexRouter = require('./routes/indexRouter');
-
+const carsRouter = require('./routes/carsRouter');
 
 
 // use the routes
 app.use('/api',indexRouter);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.use('/api',carsRouter);
 
 
 

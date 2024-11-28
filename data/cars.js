@@ -70,6 +70,6 @@ const cars = [
         year: 2021,
         price: 45000,
     },
-];
+]
 
 module.exports = cars;
