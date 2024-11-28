@@ -118,3 +118,33 @@ footer {
     color: rgb(3, 3, 3);
     cursor: pointer;
 }
+
+#nextPage:hover {
+    background-color: #f2f2f2;
+}
+#catalogButton{
+    margin-top: 10px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+}
+
+#catalogButton:hover {
+    background-color: #f2f2f2;
+}
+#downloadButton{
+    margin-top: 10px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+}

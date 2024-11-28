@@ -57,6 +57,8 @@ class CarsDatabase extends React.Component {
               </tbody>
             </table>
           </div>
+          <button type="button" name="catalogButton" id="catalogButton">  
+              <a href="/api/downloads">Cars Catalog</a> </button>
         </div>
         <footer>
           <p>Philadelphia Car Vendor &copy; 2024</p>

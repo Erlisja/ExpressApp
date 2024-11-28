@@ -27,11 +27,13 @@ app.use(logger);
 
 const indexRouter = require('./routes/indexRouter');
 const carsRouter = require('./routes/carsRouter');
+const downloadRouter = require('./routes/downloadsRouter');
 
 
 // use the routes
 app.use('/api',indexRouter);
 app.use('/api',carsRouter);
+app.use('/api',downloadRouter);
 
 
 
